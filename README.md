@@ -49,4 +49,4 @@ MIT License – You can use, modify, and share this project with proper credit.
 
 💁🏻‍♀️ **About Me**
 
-Hi there! I'm Syeda Abeer Fatima. I’m a fast learner who loves exploring data and uncovering insights that drive real decisions. Always curious, always improving, and always ready to turn messy data into something meaningful.
+Hi there! I'm **Syeda Abeer Fatima**. I’m a fast learner who loves exploring data and uncovering insights that drive real decisions. Always curious, always improving, and always ready to turn messy data into something meaningful.
