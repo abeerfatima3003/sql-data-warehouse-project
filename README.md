@@ -6,33 +6,47 @@ This project presents a complete data warehousing and analytics solution, coveri
 ...
 
 📌 **Project Requirements**
-1. Building the Data Warehouse (Data Engineering)
+
+Building the Data Warehouse (Data Engineering)
 Objective:
 Create a modern data warehouse in SQL Server to combine sales data and support reporting and decision-making.
 
 Key Points:
-**Data Sources**: Import sales data from ERP and CRM (CSV files).
-**Data Quality**: Clean and fix any data issues.
-**Integration**: Merge both sources into one easy-to-use data model.
-**Scope**: Use only the latest datasets (No historization needed).
-**Documentation**: Provide clear data model documentation for business and analytics teams.
+
+1. **Data Sources**: Import sales data from ERP and CRM (CSV files).
+
+2. **Data Quality**: Clean and fix any data issues.
+
+3. **Integration**: Merge both sources into one easy-to-use data model.
+
+4. **Scope**: Use only the latest datasets (No historization needed).
+
+5. **Documentation**: Provide clear data model documentation for business and analytics teams.
 
 ...
 
 📊 **BI Analytics and Reporting (Data Analytics)**
+
 Objective:
+
 Build SQL-based analytics to provide insights into:
-**Customer behavior**
-**Product performance**
-**Sales trends**
+
+1. **Customer behavior**
+
+2. **Product performance**
+
+3. **Sales trends**
+
 These insights help stakeholders track key metrics and make better business decisions.
 
 ...
 
-📜 License
+📜 **License**
+
 MIT License – You can use, modify, and share this project with proper credit.
 
 ...
 
-💁🏻‍♀️ About Me
+💁🏻‍♀️ **About Me**
+
 Hi there! I'm Syeda Abeer Fatima. I’m a fast learner who loves exploring data and uncovering insights that drive real decisions. Always curious, always improving, and always ready to turn messy data into something meaningful.
