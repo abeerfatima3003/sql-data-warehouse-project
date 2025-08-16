@@ -17,6 +17,25 @@ Usage Example:
 */
 
 
+/*
+============================================================================
+Srored Procedure: Load Bronze Layer (Source -> bronze)
+============================================================================
+Script Purpose: 
+	This stored procedure loads data into the 'bronze' schema from external CSV files.
+	It performs the loading actions:
+	- Truncates the bronze tables before loading data.
+	- Uses the 'BULK INSERT' command to load data from CSV files to Bronze tables.
+
+Parameters:
+	None.
+	This stored procedure does not accept any parameters or return any values.
+
+Usage Example:
+	EXEC bronze.load_bronze;
+*/
+
+
 -- Stored Procedures
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
@@ -47,7 +66,6 @@ BEGIN
 		-> (how to handle the file) -> row header (the data starts from the 2nd row) -> then specify the field terminator
 		-> Tablock- option to improve the performance ( locking the table while it loads)
 		*/
-
 		PRINT '>>Inserting Data Into: bronze.crm_cust_info';
 		BULK INSERT bronze.crm_cust_info
 		FROM 'C:\sql\dwh_project\datasets\source_crm\cust_info.csv' 
@@ -80,6 +98,8 @@ BEGIN
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + 'seconds'; 
 		PRINT '>> ------------------';
 
+-----------------------------------------------------------------------------------------
+
 		SET @start_time = GETDATE();
 		PRINT '>>Truncating Table : bronze.crm_sales_details';
 		TRUNCATE TABLE bronze.crm_sales_details;
@@ -95,6 +115,8 @@ BEGIN
 		SET @end_time = GETDATE();
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + 'seconds'; 
 		PRINT '>> ------------------';
+
+-----------------------------------------------------------------------------------------
 
 		PRINT '++++++++++++++++++++++++++++++++++++++++++++++++++';
 		PRINT 'Loading ERP tables';
@@ -116,6 +138,9 @@ BEGIN
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + 'seconds'; 
 		PRINT '>> ------------------';
 
+-----------------------------------------------------------------------------------------
+
+		SET @start_time = GETDATE();
 		PRINT '>>Truncating Table : bronze.erp_loc_a101';
 		TRUNCATE TABLE bronze.erp_loc_a101;
 
@@ -127,6 +152,11 @@ BEGIN
 			FIELDTERMINATOR = ',',
 			TABLOCK
 		);
+		SET @end_time = GETDATE();
+		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + 'seconds'; 
+		PRINT '>> ------------------';
+
+-----------------------------------------------------------------------------------------
 
 		SET @start_time = GETDATE();
 		PRINT '>>Truncating Table : bronze.erp_px_cat_g1v2';
