@@ -55,7 +55,6 @@ CREATE TABLE bronze.crm_sales_details(
 	sls_price INT
 );
 
-
 ------------------------------------------------------------------------------
 IF OBJECT_ID ('bronze.erp_cust_az12','U') IS NOT NULL 
 	DROP TABLE bronze.erp_cust_az12;
