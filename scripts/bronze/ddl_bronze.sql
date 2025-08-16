@@ -1,3 +1,12 @@
+/* 
+========================================================================
+DDL: Script: Create Bronze Tables
+========================================================================
+Script Purpose: 
+	This script creates tables in the 'bronze' schema
+*/
+
+
 /*
 Always check whether table exists or not
 Follow the TSQL logic
