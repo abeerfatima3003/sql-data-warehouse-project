@@ -24,7 +24,7 @@ ___________________________________________
 
 🛠️ **Important Links & Tools**:
 ---
-- [Datasets] (./data) Access to the project dataset (CSV Files).
+- [Datasets](https://github.com/abeerfatima3003/sql-data-warehouse-project/tree/main/datasets) Access to the project dataset (CSV Files).
 - [SQL Server Express](https://learn.microsoft.com/sql/sql-server/express/): Lightweight server for hosting your SQL database.
 - [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/sql/ssms/): GUI for managing and interacting with databases.
 - [Git Repository](https://github.com): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
