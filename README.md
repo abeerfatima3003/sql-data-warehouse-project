@@ -27,7 +27,7 @@ ___________________________________________
 - [Datasets] (./data) Access to the project dataset (CSV Files).
 - [SQL Server Express](https://learn.microsoft.com/sql/sql-server/express/): Lightweight server for hosting your SQL database.
 - [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/sql/ssms/): GUI for managing and interacting with databases.
-- [Git Repository](https://github.com/yourusername/yourrepo): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- [Git Repository](https://github.com): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 - Design data architecture, models, flows, and diagrams.
 - All-in-one tool for project management and organization.
 - Access to All Project Phases and Tasks.
