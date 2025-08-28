@@ -24,13 +24,13 @@ ___________________________________________
 
 🛠️ **Important Links & Tools**:
 ---
-- [Datasets](https://github.com/abeerfatima3003/sql-data-warehouse-project/tree/main/datasets) Access to the project dataset (CSV Files).
+- [Datasets](https://github.com/abeerfatima3003/sql-data-warehouse-project/tree/main/datasets): Access to the project dataset (CSV Files).
 - [SQL Server Express](https://learn.microsoft.com/sql/sql-server/express/): Lightweight server for hosting your SQL database.
 - [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/sql/ssms/): GUI for managing and interacting with databases.
 - [Git Repository](https://github.com): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 - [DrawIO](https://app.diagrams.net/): Design data architecture, models, flows, and diagrams.
 - [Notion](https://www.notion.so/): All-in-one tool for project management and organization.
-- Access to All Project Phases and Tasks.
+- [Notion Project Steps](https://www.notion.so/SQL-DATA-WAREHOUSE-PROJECT-24a9d788a32a80548d19c7ac8c9e0ab3?source=copy_link): Access to All Project Phases and Tasks.
 
 📌 **Project Requirements**
 ---
