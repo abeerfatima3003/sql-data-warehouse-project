@@ -31,6 +31,7 @@ ___________________________________________
 - [DrawIO](https://app.diagrams.net/): Design data architecture, models, flows, and diagrams.
 - [Notion](https://www.notion.so/): All-in-one tool for project management and organization.
 - [Notion Project Steps](https://www.notion.so/SQL-DATA-WAREHOUSE-PROJECT-24a9d788a32a80548d19c7ac8c9e0ab3?source=copy_link): Access to All Project Phases and Tasks.
+________________________________________________________
 
 📌 **Project Requirements**
 ---
@@ -62,7 +63,6 @@ Build SQL-based analytics to provide insights into:
 - **Sales trends**
 
 These insights help stakeholders track key metrics and make better business decisions.
-For more details, refer to 
 ___________________________________
 
 🏗️ **Data Architecture**
