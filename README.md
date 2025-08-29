@@ -78,14 +78,31 @@ ___________________________________
 
 🗃️ **Repository Structure**
 ---
-- data-warehouse-project/
-   - datasets/                                                                   # **Raw datasets used for the project (ERP and CRM data)**
-   - docs/                                                                       # **Project documentation and architecture details**
-        - etl.drawio
-
-
-
-
+``` 
+data-warehouse-project/
+|
+├── datasets/             # Raw datasets used for the project (ERP and CRM data)
+|
+├── docs/                 # Project documentation and architecture details
+│   ├── etl.drawio        # Draw.io file shows all different techniques and methods of ETL
+│   ├── data_architecture.drawio # Draw.io file shows the project's architecture
+│   ├── data_catalog.md   # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio  # Draw.io file for the data flow diagram
+│   ├── data_models.drawio # Draw.io file for data models (star schema)
+│   └── naming-conventions.md # Consistent naming guidelines for tables, columns, and files
+|
+├── scripts/              # SQL scripts for ETL and transformations
+│   ├── bronze/           # Scripts for extracting and loading raw data
+│   ├── silver/           # Scripts for cleaning and transforming data
+│   └── gold/             # Scripts for creating analytical models
+|
+├── tests/                # Test scripts and quality files
+|
+├── README.md             # Project overview and instructions
+├── LICENSE               # License information for the repository
+├── .gitignore            # Files and directories to be ignored by Git
+└── requirements.txt      # Dependencies and requirements for the project
+```
 ___________________________________
 
 📜 **License**
@@ -96,6 +113,9 @@ This project is licensed under the MIT License. You can use, modify, and share t
 💁🏻‍♀️ **About Me**
 ---
 
-Hi there! I'm **Syeda Abeer Fatima**. I’m a fast learner who loves exploring data and uncovering insights that drive real decisions. Always curious, always improving, and always ready to turn messy data into something meaningful.
-Feel free to connect with me. Let's stay in touch!
+Hi there! I'm **Syeda Abeer Fatima**. A data enthusiast focused on creating efficient data solutions. This project was a great opportunity to apply my skills in data warehousing, ETL development, and data modeling. I love learning new things, reading books, and finding simple solutions to complex problems.
+
+Feel free to connect with me. I would love to hear your thoughts. Let's stay in touch! 
+
+[Connect with me on LinkedIn](http://www.linkedin.com/in/abeer3003)
 
